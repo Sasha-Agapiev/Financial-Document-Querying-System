@@ -13,11 +13,14 @@ Make sure to first run the following installs:
 
 Ensure that "SEC_Report_Analyzer.py" and "News_Article_Analyzer.py" are in the "pages" folder before running! Essentially, just maintain the same file layout we currently have for the repository. 
 
-**To run the app on Jupyter Notebook / Colab** 
+**Running the app on Jupyter Notebook / Colab** 
 
 Use the following lines to create a local tunnel:
+
 !npm install localtunnel
+
 !streamlit run /content/Landing_Page.py &>/content/logs.txt &
+
 !npx localtunnel --port 8501
 
 
@@ -26,7 +29,9 @@ This will create a "logs.txt" file (shown in the image below). In "logs.txt", co
 ![image](https://github.com/Sasha-Agapiev/Financial-Document-Querying-System/assets/57875787/d5d8d965-a063-4e46-aa57-78002359c2ae)
 
 
-**To run from a standard IDE**, just run the following line:
+**Running the app from a standard IDE**
+
+Simply execute the following line:
 
 streamlit run Landing_Page.py 
 
