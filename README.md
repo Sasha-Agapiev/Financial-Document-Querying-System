@@ -15,6 +15,7 @@ Make sure to first run the following installs:
 
 Ensure that "SEC_Report_Analyzer.py" and "News_Article_Analyzer.py" are in the "pages" folder before running! Essentially, just maintain the same file layout we currently have for the repository. 
 
+
 **Running the app on Jupyter Notebook / Colab** 
 
 Use the following lines to create a local tunnel:
@@ -29,6 +30,7 @@ Use the following lines to create a local tunnel:
 This will create a "logs.txt" file (shown in the image below). In "logs.txt", copy the External URL IP address (excluding :8501). Then, paste this IP on the local tunnel page and this will direct you to the web app landing page. 
 
 ![image](https://github.com/Sasha-Agapiev/Financial-Document-Querying-System/assets/57875787/d5d8d965-a063-4e46-aa57-78002359c2ae)
+
 
 
 **Running the app from a standard IDE**
