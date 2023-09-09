@@ -6,22 +6,29 @@ This project was developped by Sasha Agapiev and Tanmaay Kankaria as part of an 
 
 ## How to run
 Make sure to first run the following installs: 
+
 * !pip install langchain transformers huggingface_hub tiktoken 
 * !pip install -q sec-api
 * !pip install streamlit newsapi-python newspaper3k
 
-Ensure that "SEC_Report_Analyzer.py" and "News_Article_Analyzer.py" are in the "pages" folder before running! Folder must be named "pages" in all lowercase for the Streamlit app to work. 
+Ensure that "SEC_Report_Analyzer.py" and "News_Article_Analyzer.py" are in the "pages" folder before running! Essentially, just maintain the same file layout we currently have for the repository. 
 
-**To run the app on Jupyter Notebook / Colab**, use the following lines to create a local tunnel:
+**To run the app on Jupyter Notebook / Colab** 
+
+Use the following lines to create a local tunnel:
 !npm install localtunnel
 !streamlit run /content/Landing_Page.py &>/content/logs.txt &
 !npx localtunnel --port 8501
 
 
 This will create a "logs.txt" file (shown in the image below). In "logs.txt", copy the External URL IP address (excluding :8501). Then, paste this IP on the local tunnel page and this will direct you to the web app landing page. 
+
 ![image](https://github.com/Sasha-Agapiev/Financial-Document-Querying-System/assets/57875787/d5d8d965-a063-4e46-aa57-78002359c2ae)
 
+
 **To run from a standard IDE**, just run the following line:
+
 streamlit run Landing_Page.py 
+
 
 If this does not work, refer to the instructions from the [Streamlit website](https://docs.streamlit.io/knowledge-base/using-streamlit/how-do-i-run-my-streamlit-script). 
