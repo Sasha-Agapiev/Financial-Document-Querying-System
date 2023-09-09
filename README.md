@@ -6,12 +6,11 @@ This project was developped by Sasha Agapiev and Tanmaay Kankaria as part of an 
 
 ## How to run
 Make sure to first run the following installs: 
-
-*!pip install langchain transformers huggingface_hub tiktoken*
-
-*!pip install -q sec-api*
-
-*!pip install streamlit newsapi-python newspaper3k*
+'''
+!pip install langchain transformers huggingface_hub tiktoken
+!pip install -q sec-api
+!pip install streamlit newsapi-python newspaper3k
+'''
 
 Ensure that "SEC_Report_Analyzer.py" and "News_Article_Analyzer.py" are in the "pages" folder before running! Essentially, just maintain the same file layout we currently have for the repository. 
 
